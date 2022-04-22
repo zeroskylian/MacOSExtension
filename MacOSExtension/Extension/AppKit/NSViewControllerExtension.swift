@@ -26,8 +26,4 @@ extension NSViewController {
             beginWindowSheet(with: window)
         }
     }
-    
-    func beginWindowSheet(viewController: NSViewController) {
-        beginWindowSheet(windowController: HLAppDefaultWindowController(controller: viewController))
-    }
 }
